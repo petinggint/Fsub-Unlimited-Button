@@ -19,23 +19,23 @@
     },
     "ADMINS": {
       "description": "Masukan User ID untuk mendapatkan hak Admin di BOT [ Gunakan Spasi Untuk Pemisah User ID ]",
-      "value": "0"
+      "value": ""
     },
     "APP_ID": {
       "description": "Dapatkan APP ID di web my.telegram.org",
-      "value": "6"
+      "value": ""
     },
     "API_HASH": {
       "description": "Dapatkan API HASH di web my.telegram.org",
-      "value": "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+      "value": ""
     },
     "CHANNEL_ID": {
       "description": "Masukan ID Channel Untuk [Channel Database]",
-      "value": "-100"
+      "value": ""
     },
     "PROTECT_CONTENT": {
       "description": "Untuk Mencegah pengguna bot untuk mendownload/memforward/mengscreenshot konten yang dikirim di bot [ Bila ingin diaktifkan ubah ke True ]",
-      "value": "False"
+      "value": "True"
     },
     "FORCE_SUB1": {
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya. Kosongi kalau tidak ingin diisi. Untuk FORCE_SUB2, FORCE_SUB3, dst isi sendiri env nya",
@@ -43,7 +43,7 @@
     },
     "BUTTONS_PER_ROW": {
       "description": "Maksimal banyak button per baris (untuk unlimited button). Kalau bingung, isi 3 aja",
-      "value": "3",
+      "value": "2",
       "required": false
     },
     "BUTTONS_JOIN_TEXT": {
@@ -75,7 +75,7 @@
   ],
   "formation": {
     "worker": {
-      "quantity": 2,
+      "quantity": 1,
       "size": "eco"
     }
   }
